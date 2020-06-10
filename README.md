@@ -1,2 +1,2 @@
-# calculator-of-windows
-Primeiro projeto com JavaScript: Calculadora do Windows.
+# Calculadora do Windows
+Meu primeiro projeto com JavaScript: Calculadora do Windows.
