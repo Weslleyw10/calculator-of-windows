@@ -1,0 +1,80 @@
+/** RESET **/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/** HELPERS **/
+.last{
+    margin-bottom: 0;
+}
+
+.btn-numb{
+    background: #ffffff;   
+}
+
+.equal{
+    background: #79b9ee;
+}
+
+.equal:hover{
+    background: #537df1 !important;
+}
+
+/** STRUCTURE **/
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;        
+}
+
+.calc{
+    background: #dad8d8;
+    border: 1px solid #cccccc;
+    min-width: 300px ;
+    width: 300px;   
+    /** **/     
+}
+
+.calc .display{
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end;  
+    width: 100%;
+    height: 130px;
+    padding: 0 20px;        
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2px;
+}
+
+.btn{
+    width: calc(25% - 1px);
+    line-height: 40px;
+    padding: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    border: none;   
+    font-size: 1.2em;
+}
+
+.btn:hover{
+    background: #dddddd;    
+    transition: 0.2s;
+}
