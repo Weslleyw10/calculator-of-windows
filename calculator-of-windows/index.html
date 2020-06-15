@@ -9,12 +9,17 @@
 <body>
     <div class="container">
         <section class="calc">
-            <header class="display">0</header>
+            <header class="display"></header>
             <div class="buttons">
                 <button class="btn btn-op porcent">%</button>
                 <button class="btn btn-op clear-entry">CE</button>
                 <button class="btn btn-op clear">C</button>
                 <button class="btn btn-op backspace">←</button>
+                <!---->
+                <button class="btn btn-op porcent">¹/x</button>
+                <button class="btn btn-op clear-entry">x²</button>
+                <button class="btn btn-op clear">√</button>
+                <button class="btn btn-op backspace">÷</button>
                 <!---->
                 <button class="btn btn-numb seven">7</button>
                 <button class="btn btn-numb eigth">8</button>
@@ -26,17 +31,22 @@
                 <button class="btn btn-numb six">6</button>
                 <button class="btn btn-op sub">-</button>
                 <!---->
-                <button class="btn btn-numb three">3</button>
+                <button class="btn btn-numb three">1</button>
                 <button class="btn btn-numb two">2</button>
-                <button class="btn btn-numb one">1</button>
+                <button class="btn btn-numb one">3</button>
                 <button class="btn btn-op sum">+</button>
                 <!---->
                 <button class="btn btn-op last">±</button>
                 <button class="btn btn-numb last zero">0</button>
                 <button class="btn btn-op last comma">,</button>
                 <button class="btn btn-op last equal">=</button>                
-            </div>
-        </section>
-    </div>        
+            </div>            
+        </section>   
+        <div class="footer">
+            Created by <a href="https://github.com/Weslleyw10" title="Meu perfil do Github"> Weslley L Silva.</a> 
+        </div>     
+    </div>     
+    <script src="./src/Controller/Calculator.js"></script>   
+    <script src="./src/index.js"></script>   
 </body>
 </html>
